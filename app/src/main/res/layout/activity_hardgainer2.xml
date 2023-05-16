@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starting_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.hehe.trumpcard.Hardgainer2">
+
+    <TextView
+        android:text="HARDGAINER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button17"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Get huge as fuark!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="This diet plan gives you an idea of how much food you should be eating and when. You might choose to train in the morning instead, but overall, it’s important to make sure you get a range of nutrients and you’re eating at least six times per day.\n\n  Meal 1:\n 75g of instant oats\n 1 scoop of whey protein\n 4 whole eggs and 2 egg whites\n 663Kcal | 55g Carbs | 24g Fat | 63g Protein\n\n  Meal 2:\n 1 scoop whey protein with 150ml of milk and water\n 402Kcal | 28.5 Carbs | 57g Protein | 16.2g Fat\n\nMeal 3:\n 1 Medium baked sweet potato\n 2 Tbsp sour cream\n 1 baked salmon fillet\n Spinach\n 2 tbsp sesame seeds\n 300ml whole milk\n 719Kcal | 53g Carbs | 48g Protein | 35g Fat\n\n "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView25"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button32"
+        android:textSize="24sp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button17"
+        android:layout_marginEnd="12dp" />
+</RelativeLayout>

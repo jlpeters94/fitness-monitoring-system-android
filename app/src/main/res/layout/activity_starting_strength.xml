@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starting_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.hehe.trumpcard.StartingStrength">
+
+    <TextView
+        android:text="STARTING STRENGTH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button17"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Starting Strength alternates two workouts on a thrice weekly training frequency. The workouts are as following:\n\n  “A” Day:\n Squat: 3×5\n Bench: 3×5\n Deadlift: 1×5\n\n  “B” Day:\n Squat: 3×5\n Overhead Press: 3×5\n Power Clean: 5×3\n\n  Starting Strength Two Week Cycle:\n\n  Week 1:\n Mon: Day “A”\n Wed: Day “B”\n Fri: Day “A”\n\n  Week 2:\n Mon: Day “B”\n Wed: Day “A”\n Fri: Day “B”"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView25"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button44"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="A Beginner's Weight Program"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

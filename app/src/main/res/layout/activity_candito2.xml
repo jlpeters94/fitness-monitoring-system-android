@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starting_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.hehe.trumpcard.Candito2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:text="CANDITO LINEAR" />
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button17"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Thursday: Control Lower Day\n Paused Squat 6 x 4\n Pause Deadlift 3 x 4\n Optional Exercise 3 x 8-12\n Optional Exercise 3 x 8-12\n\n  Friday: Control Upper Day\n Spoto Press 6 x 4\n Paused Upperback 6 x 4\n Shoulderrs 1 x 10\n Biceps 1 x 10\n Optional Exercise 3 x 8-12\n Optional Exercise 3 x 8-12\n\nHonestly, Candito’s linear program is very, very solid.\n\nWith this program, you will be jacked as hell."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView25"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:text="A Solid Strength Program"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

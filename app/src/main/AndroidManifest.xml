@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hehe.trumpcard">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Start" />
+        <activity android:name=".About" />
+        <activity android:name=".Credits" />
+        <activity android:name=".Normal" />
+        <activity android:name=".Instruct" />
+        <activity android:name=".Methods" />
+        <activity android:name=".Start2" />
+        <activity android:name=".Start22" />
+        <activity android:name=".Start3" />
+        <activity android:name=".Start33" />
+        <activity android:name=".Underweight" />
+        <activity android:name=".Overweight" />
+        <activity android:name=".WeightGain" />
+        <activity android:name=".MuscleGain" />
+        <activity android:name=".WeightLoss" />
+        <activity android:name=".StartingStrength" />
+        <activity android:name=".StartingStrength2" />
+        <activity android:name=".Hardgainer" />
+        <activity android:name=".Hardgainer2" />
+        <activity android:name=".Hardgainer3" />
+        <activity android:name=".PPL" />
+        <activity android:name=".PPL2" />
+        <activity android:name=".StrongMeals" />
+        <activity android:name=".HIIT" />
+        <activity android:name=".Triminator" />
+        <activity android:name=".Candito" />
+        <activity android:name=".Candito2" />
+        <activity android:name=".HardgainerTwo" />
+        <activity android:name=".HardgainerTwo2" />
+        <activity android:name=".Summon" />
+        <activity android:name=".JNT" />
+        <activity android:name=".JNT2" />
+        <activity android:name=".Summon2" />
+        <activity android:name=".HIIT2" />
+        <activity android:name=".LosePounds" />
+        <activity android:name=".LosePounds2" />
+        <activity android:name=".LosePounds3" />
+        <activity android:name=".LosePounds4" />
+        <activity android:name=".LosePounds6" />
+        <activity android:name=".LosePounds5" />
+        <activity android:name=".WeightGainCheck1" />
+        <activity android:name=".WeightGainCheck2" />
+        <activity android:name=".WeightLossCheck1" />
+        <activity android:name=".WeightLossCheck2" />
+        <activity android:name=".MuscleGainCheck1" />
+        <activity android:name=".MuscleGainCheck2" />
+        <activity android:name=".GalleryPictureActivity" />
+        <activity android:name=".GalleryAdapter" />
+        <activity android:name=".GridViewAdapter" />
+        <activity android:name=".GalleryTry" />
+        <activity android:name=".Login"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starting_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.hehe.trumpcard.HIIT">
+
+    <TextView
+        android:text="HIIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Full Body Bodyweight Routine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="UNLOCK NEXT TRAINING PROGRAM!\n(need at least 24 BMI)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button28"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:text="This is a simple Bodyweight Workout Routine For Weight Loss. It just takes you 18 minutes to complete this routine. This workout routine targets your whole body (chest, arms, legs, and core) so you will lose those fat and especially those love handles.\n  Complete a circuit then rest 30 seconds, then repeat that circuit 3 times then move on to the next.\n\n  Circuit 1 (Chest/Arms):\n Push Ups - 30 seconds\n Plank Tucks - 30 seconds\n\n  Circuit 2 (Legs):\n Alternating Lunges - 30 seconds\n Squat Jumps - 30 seconds\n\n  Circuit 3 (Arms/Legs):\n Tricep Dips - 30 seconds\n Stationary Sprints - 30 seconds\n\n  Circuit 4 (:\n Leg Raises - 30 seconds\n V-Holds - 30 seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button34"
+        android:background="@android:color/white"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

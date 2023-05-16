@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starting_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.hehe.trumpcard.LosePounds4">
+
+    <TextView
+        android:text="LOSE THE POUNDS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Tasty Diet!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Day 5\n Breakfast\n > 1/3 cup dried oatmeal, cooked in water\n > 1 banana with 2 tsp almond butter and a dash of cinnamon\n Snack\n > 1 cup cucumber slices\n > 2 Tbsp guacamole\n Lunch\n > Avocado and cucumber nori rolls\n Snack\n > 7 oz full-fat plain Greek yogurt with 1 Tbsp flaxseeds\n Dinner\n > 4 oz salmon baked with 1/4 lemon juiced, 1 Tbsp Dijon mustard, and 1 Tbsp chopped fresh parsley\n > 2 cups sautéed spinach\n\nDay 6:\n Breakfast\n > Oatmeal pancakes: 1 whole egg, 2 egg whites, 1/4 cup old-fashioned or quick-cooking oats, 1 pinch of ground cinnamon, 1/2 cup low fat cottage cheese Snack\n > 5 celery sticks with 2 tsp peanut butter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView25"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button29"
+        android:background="@android:color/white"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button40"
+        android:background="@android:color/white"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>

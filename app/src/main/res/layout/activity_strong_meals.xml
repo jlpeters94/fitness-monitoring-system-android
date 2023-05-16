@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starting_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.hehe.trumpcard.StrongMeals">
+
+    <TextView
+        android:text="STRONG MEALS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Power Overwhelming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Breakfast:\n > Egg Whites, Oats, Coffee\n\n  Breakfast 2:\n > Lean Steak, Brown Rice\n\n  Mid-morning:\n > Chicken, Sweet Potato, Broccoli\n\n  Lunch:\n > Fish, Brown Rice, Broccoli\n\n  Mid-afternoon:\n > Chicken, Sweet Potato, Broccoli\n\n  Pre-workout:\n > Tilapia, Brown Rice, Coffee\n\n  Post-workout:\n > Protein Shake\n  Dinner:\n > Lean Steak, Broccoli\n\n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView25"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:text="UNLOCK NEXT DIET PLAN!\n(need at least 23 BMI)"
+        android:layout_width="330sp"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button25"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView25"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button45"
+        android:background="@android:color/white"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold" />
+</RelativeLayout>

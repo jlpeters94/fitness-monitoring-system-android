@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starting_strength"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.hehe.trumpcard.Hardgainer3">
+
+    <TextView
+        android:text="HARDGAINER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Get huge as fuark!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Meal 4:\n 125g of Greek Yogurt\n 1 scoop whey protein\n 1 banana\n 8 almonds\n 432Kcal | 46.5 Carbs | 37.5 Protein | 10.7g Fat\n\n  Meal 5:\n Mexican Spice\n 1 chicken breast 118g\n 1/2 cooked onion\n 1/2 cooked red bell pepper\n 200g brown rice\n 4 tbsp salsa\n 2 tbsp sour cream\n 1/2 tin mixed beans\n 724Kcal | 109g Carbs | 45g Protein | 10g Fat\n\n  Meal 6:\n 1 tbsp peanut butter\n 1 tbsp casein\n Mixed with 200ml milk or 125g of Greek yoghurt\n 324Kcal | 128g Carbs | 34g Protein | 14.5g Fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView25"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button23"
+        android:background="@android:color/white"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="UNLOCK NEXT DIET PLAN!\n(need at least 19 BMI)"
+        android:layout_width="330sp"
+        android:layout_height="50sp"
+        android:id="@+id/button24"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
